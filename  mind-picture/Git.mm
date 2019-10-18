@@ -1,7 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1570526790556" ID="ID_1411345119" MODIFIED="1570528151043" STYLE="bubble" TEXT="Git">
-<node CREATED="1570526800437" FOLDED="true" ID="ID_1695500098" MODIFIED="1570528151043" POSITION="right" STYLE="bubble" TEXT="git&#x7b80;&#x4ecb;">
+<node CREATED="1570526800437" ID="ID_1695500098" MODIFIED="1571362165950" POSITION="right" STYLE="bubble" TEXT="git&#x7b80;&#x4ecb;">
 <node CREATED="1570526859804" ID="ID_1916395421" MODIFIED="1570526861799" TEXT="&#x662f;&#x76ee;&#x524d;&#x4e16;&#x754c;&#x4e0a;&#x6700;&#x5148;&#x8fdb;&#x7684;&#x5206;&#x5e03;&#x5f0f;&#x7248;&#x672c;&#x63a7;&#x5236;&#x7cfb;&#x7edf;"/>
 <node CREATED="1570526986947" ID="ID_841263629" MODIFIED="1570526989912" TEXT="&#x5206;&#x5e03;&#x5f0f;">
 <node CREATED="1570526991274" ID="ID_1076604007" MODIFIED="1570527023651">
@@ -65,9 +65,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1570528143434" FOLDED="true" ID="ID_122099058" MODIFIED="1570603423088" POSITION="right" TEXT="&#x521b;&#x5efa;&#x7248;&#x672c;&#x5e93;">
+<node CREATED="1570528143434" ID="ID_122099058" MODIFIED="1571362169718" POSITION="right" TEXT="&#x521b;&#x5efa;&#x7248;&#x672c;&#x5e93;">
 <node CREATED="1570528169042" ID="ID_451948205" MODIFIED="1570528179738" TEXT="1.&#x4e00;&#x4e2a;&#x5408;&#x9002;&#x7684;&#x5730;&#x65b9;&#xff0c;&#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x7a7a;&#x76ee;&#x5f55;"/>
-<node CREATED="1570528181306" ID="ID_1998610880" MODIFIED="1570528200215" TEXT="2.&#x901a;&#x8fc7;git init&#x547d;&#x4ee4;&#x628a;&#x8fd9;&#x4e2a;&#x76ee;&#x5f55;&#x53d8;&#x6210;Git&#x53ef;&#x4ee5;&#x7ba1;&#x7406;&#x7684;&#x4ed3;&#x5e93;"/>
+<node CREATED="1570528181306" ID="ID_1998610880" MODIFIED="1570528200215" TEXT="2.&#x901a;&#x8fc7;git init&#x547d;&#x4ee4;&#x628a;&#x8fd9;&#x4e2a;&#x76ee;&#x5f55;&#x53d8;&#x6210;Git&#x53ef;&#x4ee5;&#x7ba1;&#x7406;&#x7684;&#x4ed3;&#x5e93;">
+<node CREATED="1571362176161" ID="ID_1124249334" MODIFIED="1571362185736" TEXT="git init"/>
+</node>
 <node CREATED="1570528201650" ID="ID_945692163" MODIFIED="1570528271559" TEXT="3.&#x6267;&#x884c;git add&#x544a;&#x8bc9;Git&#xff0c;&#x628a;&#x6587;&#x4ef6;&#x6dfb;&#x52a0;&#x5230;&#x4ed3;&#x5e93;">
 <node CREATED="1570528274522" ID="ID_59477120" MODIFIED="1570528284331" TEXT=" git add readme.txt"/>
 </node>
@@ -116,7 +118,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1570528457385" FOLDED="true" ID="ID_1509876656" MODIFIED="1570603419401" POSITION="right" TEXT="&#x65f6;&#x5149;&#x7a7f;&#x68ad;">
+<node CREATED="1570528457385" ID="ID_1509876656" MODIFIED="1571362168925" POSITION="right" TEXT="&#x65f6;&#x5149;&#x7a7f;&#x68ad;">
 <node CREATED="1570528614431" ID="ID_1663302639" MODIFIED="1570528615805" TEXT="git status&#x547d;&#x4ee4;">
 <node CREATED="1570528638808" ID="ID_654113014" MODIFIED="1570528640592" TEXT="&#x968f;&#x65f6;&#x638c;&#x63e1;&#x5de5;&#x4f5c;&#x533a;&#x7684;&#x72b6;&#x6001;"/>
 </node>
@@ -139,7 +141,7 @@
 <node CREATED="1570528700647" ID="ID_709105736" MODIFIED="1570528710774" TEXT="git diff readme.txt "/>
 </node>
 </node>
-<node CREATED="1570529863343" FOLDED="true" ID="ID_1725946167" MODIFIED="1570603418224" POSITION="right" TEXT="&#x7248;&#x672c;&#x56de;&#x9000;">
+<node CREATED="1570529863343" ID="ID_1725946167" MODIFIED="1571363400014" POSITION="right" TEXT="&#x7248;&#x672c;&#x56de;&#x9000;">
 <node CREATED="1570529868447" ID="ID_1583564727" MODIFIED="1570529973966" TEXT="git log&#x547d;&#x4ee4;">
 <node CREATED="1570529957377" ID="ID_1763925894" MODIFIED="1570529966268" TEXT="&#x4f5c;&#x7528;">
 <node CREATED="1570529868574" ID="ID_1521628711" MODIFIED="1570529922319" TEXT="&#x663e;&#x793a;&#x4ece;&#x6700;&#x8fd1;&#x5230;&#x6700;&#x8fdc;&#x7684;&#x63d0;&#x4ea4;&#x65e5;&#x5fd7;"/>
@@ -183,7 +185,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1570591113503" FOLDED="true" ID="ID_60549532" MODIFIED="1570603417361" POSITION="right" TEXT="&#x5de5;&#x4f5c;&#x533a;&#x548c;&#x6682;&#x5b58;&#x533a;">
+<node CREATED="1570591113503" ID="ID_60549532" MODIFIED="1571363421591" POSITION="right" TEXT="&#x5de5;&#x4f5c;&#x533a;&#x548c;&#x6682;&#x5b58;&#x533a;">
 <node CREATED="1570591263606" ID="ID_1793183533" MODIFIED="1570591266531" TEXT="&#x5de5;&#x4f5c;&#x533a;">
 <node CREATED="1570591267533" ID="ID_1201868397" MODIFIED="1570591306299" TEXT="&#x5c31;&#x662f;&#x5728;&#x7535;&#x8111;&#x91cc;&#x80fd;&#x770b;&#x5230;&#x7684;&#x76ee;&#x5f55;&#xff0c;&#x5982;learngit&#x6587;&#x4ef6;&#x5939;"/>
 </node>
@@ -215,7 +217,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1570593772940" FOLDED="true" ID="ID_1405353312" MODIFIED="1570603415953" POSITION="right" TEXT="&#x64a4;&#x9500;&#x4fee;&#x6539;">
+<node CREATED="1570593772940" ID="ID_1405353312" MODIFIED="1571363429348" POSITION="right" TEXT="&#x64a4;&#x9500;&#x4fee;&#x6539;">
 <node CREATED="1570593827492" ID="ID_765756453" MODIFIED="1570594107063" TEXT="1.&#x4fee;&#x6539;&#x540e;&#x672a;&#x6dfb;&#x52a0;&#x672a;&#x63d0;&#x4ea4;">
 <node CREATED="1570593856203" ID="ID_850225695" MODIFIED="1570593879689" TEXT="&#x4ee3;&#x7801;">
 <node CREATED="1570593881268" ID="ID_523237832" MODIFIED="1570593882392" TEXT="$ git checkout -- readme.txt">
@@ -279,7 +281,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1570600513501" FOLDED="true" ID="ID_1690418498" MODIFIED="1570603414871" POSITION="right" TEXT="&#x5220;&#x9664;&#x6587;&#x4ef6;">
+<node CREATED="1570600513501" ID="ID_1690418498" MODIFIED="1571363461696" POSITION="right" TEXT="&#x5220;&#x9664;&#x6587;&#x4ef6;">
 <node CREATED="1570600555573" ID="ID_1816438856" MODIFIED="1570600558443" TEXT="&#x6b65;&#x9aa4;">
 <node CREATED="1570600559301" ID="ID_512144237" MODIFIED="1570600571114" TEXT="1.&#x5728;&#x5de5;&#x4f5c;&#x533a;&#x5220;&#x9664;&#x6587;&#x4ef6;">
 <node CREATED="1570600572157" ID="ID_1302277425" MODIFIED="1570600581314" TEXT="rm &#x6587;&#x4ef6;&#x540d;"/>
@@ -300,6 +302,9 @@
 <node CREATED="1570605459314" ID="ID_1333476951" MODIFIED="1570605472120" TEXT="1.&#x521b;&#x5efa;&#x8fdc;&#x7a0b;&#x4ed3;&#x5e93;"/>
 <node CREATED="1570605488890" ID="ID_250540416" MODIFIED="1570605551734" TEXT="2.&#x5728;&#x672c;&#x5730;&#x7684;&#x4ed3;&#x5e93;&#x8fd0;&#x884c;&#x547d;&#x4ee4;">
 <node CREATED="1570605553497" ID="ID_650936558" MODIFIED="1570605583622" TEXT="$ git remote add origin git@github.com:&#x7528;&#x6237;&#x540d;/&#x8fdc;&#x7a0b;&#x4ed3;&#x5e93;&#x540d;.git"/>
+<node CREATED="1571362020163" ID="ID_351061162" MODIFIED="1571362038442" TEXT="git remote add origin https://github.com/q851721619/free-mind.git">
+<node CREATED="1571362040771" ID="ID_1120806322" MODIFIED="1571362049616" TEXT="&#x9700;&#x8981;&#x8f93;&#x5165;&#x8d26;&#x53f7;&#x5bc6;&#x7801;"/>
+</node>
 </node>
 <node CREATED="1570605651745" ID="ID_351156600" MODIFIED="1570605678014" TEXT="3.&#x628a;&#x672c;&#x5730;&#x5e93;&#x7684;&#x5185;&#x5bb9;&#x63a8;&#x9001;&#x5230;&#x8fdc;&#x7a0b;&#x5e93;&#x4e2d;">
 <node CREATED="1570605678857" ID="ID_1825171666" MODIFIED="1570605686832" TEXT="git push -u origin master"/>
@@ -324,6 +329,7 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1571362052562" ID="ID_374705325" MODIFIED="1571362075800" TEXT="&#x4e4b;&#x540e;&#x53ef;&#x4ee5;&#x53ea;&#x8f93;&#x5165;git push -u origin master"/>
 </node>
 </node>
 <node CREATED="1570605486874" ID="ID_282506292" MODIFIED="1570671311093" TEXT="&#x4ece;&#x8fdc;&#x65b9;&#x4ed3;&#x5e93;&#x514b;&#x9686;&#x6587;&#x4ef6;">
@@ -375,8 +381,7 @@
   <body>
     <img src="../Pictures/选区_027.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1570675698100" ID="ID_561815415" MODIFIED="1570675749532" TEXT="&#x666e;&#x901a;&#x6a21;&#x5f0f;&#x5408;&#x5e76;">
@@ -387,6 +392,7 @@
 <node CREATED="1570675753427" ID="ID_1362945212" MODIFIED="1570675754593" TEXT="&#x666e;&#x901a;&#x6a21;&#x5f0f;&#x5408;&#x5e76;&#xff0c;&#x5408;&#x5e76;&#x540e;&#x7684;&#x5386;&#x53f2;&#x6709;&#x5206;&#x652f;&#xff0c;&#x80fd;&#x770b;&#x51fa;&#x6765;&#x66fe;&#x7ecf;&#x505a;&#x8fc7;&#x5408;&#x5e76;&#xff0c;&#x800c;fast forward&#x5408;&#x5e76;&#x5c31;&#x770b;&#x4e0d;&#x51fa;&#x6765;&#x66fe;&#x7ecf;&#x505a;&#x8fc7;&#x5408;&#x5e76;&#x3002;"/>
 </node>
 </node>
+<node CREATED="1571363561419" ID="ID_1996730122" MODIFIED="1571363572766" TEXT="Bug&#x5206;&#x652f;"/>
 </node>
 </node>
 </node>
