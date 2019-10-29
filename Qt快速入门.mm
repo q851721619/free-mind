@@ -1351,7 +1351,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1571119337017" FOLDED="true" ID="ID_935158327" MODIFIED="1571198755799" TEXT="&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;">
+<node CREATED="1571119337017" ID="ID_935158327" MODIFIED="1571369958326" TEXT="&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;">
 <node CREATED="1571119585685" ID="ID_1336563053" MODIFIED="1571119588603" TEXT="&#x7b80;&#x5199;">
 <node CREATED="1571119589189" ID="ID_383641989" MODIFIED="1571119594534" TEXT="regexp"/>
 </node>
@@ -1477,7 +1477,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1571124630226" FOLDED="true" ID="ID_1149788812" MODIFIED="1571198720974" TEXT="&#x5e38;&#x7528;&#x7684;&#x5b57;&#x7b26;&#x96c6;">
+<node CREATED="1571124630226" ID="ID_1149788812" MODIFIED="1571370036742" TEXT="&#x5e38;&#x7528;&#x7684;&#x5b57;&#x7b26;&#x96c6;">
 <node CREATED="1571124635714" ID="ID_242228820" MODIFIED="1571124905045">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1666,8 +1666,7 @@
   <body>
     <img src="Pictures/duanyan.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1712,8 +1711,7 @@
       &#31526;&#20043;&#38388;&#36827;&#34892;&#20999;&#25442;&#30340;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1571192608406" ID="ID_1369789048" MODIFIED="1571196102838" TEXT="&#x4f7f;&#x7528;&#x8868;&#x683c;">
@@ -1725,8 +1723,7 @@
   <body>
     <img src="Pictures/tongpei.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1745,8 +1742,7 @@
       &#36825;&#26679;&#26082;&#21487;&#20197;&#23545;&#23427;&#20204;&#36827;&#34892;&#37327;&#21270;&#65292;&#20063;&#21487;&#20197;&#25429;&#33719;&#23427;&#20204;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1571192866549" ID="ID_1612969735" MODIFIED="1571195013008" TEXT="&#x63d0;&#x53d6;&#x6355;&#x83b7;&#x5b57;&#x7b26;&#x7684;&#x51fd;&#x6570;">
@@ -1795,8 +1791,7 @@
       <span class="" title="">&#34920;&#36798;&#24335;&#30340;&#65288;&#25429;&#33719;&#65289;&#23376;&#34920;&#36798;&#24335;&#21305;&#37197;&#30340;&#23383;&#31526;&#20018;&#12290;</span>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1571195012995" ID="ID_1505663949" MODIFIED="1571196001039" TEXT="indexIn()">
@@ -1810,8 +1805,7 @@
       int QRegExp::indexIn(const QString &amp; str, int offset = 0, CaretMode caretMode = CaretAtZero) const
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1571195033134" ID="ID_1616513991" MODIFIED="1571195994778">
 <richcontent TYPE="NODE"><html>
@@ -1829,9 +1823,9 @@
       <span class="" title="">&#19968;&#20010;&#23383;&#31526;&#30340;&#21518;&#38754;&#25628;&#32034;&#65307;</span>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
+<node CREATED="1571370621263" ID="ID_538657173" MODIFIED="1571370706269" TEXT="&#x8fd4;&#x56de;&#x503c;&#x4e3a;&#x5339;&#x914d;&#x7684;&#x9996;&#x5b57;&#x7b26;&#x7684;&#x4f4d;&#x7f6e;&#x6570;&#x5b57;"/>
 </node>
 </node>
 <node CREATED="1571192929340" ID="ID_634626402" MODIFIED="1571192935780" TEXT="&#x53cd;&#x5411;&#x5f15;&#x7528;">
@@ -1848,8 +1842,7 @@
       &#23601;&#34920;&#31034;&#21069;&#38754;&#31532;&#19968;&#20010;&#25429;&#33719;&#21040;&#30340;&#25991;&#26412;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1571192980348" ID="ID_400099870" MODIFIED="1571192988087" TEXT="&#x975e;&#x6355;&#x83b7;&#x8bed;&#x6cd5;">
@@ -1867,8 +1860,7 @@
       &#25429;&#33719;&#25324;&#21495;&#26356;&#39640;&#25928;&#65292;&#22240;&#20026;regexp&#24341;&#25806;&#21482;&#38656;&#20570;&#36739;&#23569;&#30340;&#24037;&#20316;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1571193024284" ID="ID_796944277" MODIFIED="1571193027698" TEXT="&#x4f8b;&#x5b50;">
@@ -1876,18 +1868,91 @@
 </node>
 </node>
 </node>
+<node CREATED="1571370143850" ID="ID_172339154" MODIFIED="1571370155825" TEXT="&#x65b0;&#x7684;QRegularExpression&#x7c7b;">
+<node CREATED="1571370183218" ID="ID_1628031672" MODIFIED="1571370187936" TEXT="&#x4ecb;&#x7ecd;">
+<node CREATED="1571370188610" ID="ID_1368384588" MODIFIED="1571370202763">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;Qt 5&#20013;&#24341;&#20837;&#20102;&#26032;&#30340;QRegularExpression&#31867;&#65292;&#23454;&#29616;&#20102;
+    </p>
+    <p>
+      &#19982;Perl&#20860;&#23481;&#30340;&#27491;&#21017;&#34920;&#36798;&#24335;&#65292;&#24182;&#22312;QRegExp&#22522;&#30784;&#19978;&#36827;&#34892;
+    </p>
+    <p>
+      &#20102;&#24456;&#22823;&#30340;&#25913;&#36827;&#12290;&#24314;&#35758;&#32534;&#20889;Qt 5&#31243;&#24207;&#26102;&#20351;&#29992;
+    </p>
+    <p>
+      QRegularExpression&#26469;&#20195;&#26367;QRegExp&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1571370210313" ID="ID_576359733" MODIFIED="1571370212792" TEXT="&#x6784;&#x6210;">
+<node CREATED="1571370230921" ID="ID_1119699857" MODIFIED="1571370239457">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;QRegularExpression&#20013;&#65292;&#19968;&#20010;&#27491;&#21017;&#34920;&#36798;&#24335;&#30001;&#20004;&#37096;&#20998;&#26500;&#25104;&#65306;
+    </p>
+    <p>
+      &#19968;&#20010;&#27169;&#24335;&#23383;&#31526;&#20018;&#21644;&#19968;&#32452;&#27169;&#24335;&#36873;&#39033;&#65292;&#27169;&#24335;&#36873;&#39033;&#29992;&#26469;&#26356;&#25913;&#27169;&#24335;
+    </p>
+    <p>
+      &#23383;&#31526;&#20018;&#30340;&#21547;&#20041;&#12290;&#21487;&#20197;&#22312;&#26500;&#36896;&#20989;&#25968;&#20013;&#30452;&#25509;&#35774;&#32622;&#27169;&#24335;&#23383;&#31526;&#20018;&#65306;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;QRegularExpression re(&quot;a pattern&quot;);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1571370279529" ID="ID_666541791" MODIFIED="1571370280977" TEXT="&#x8bbe;&#x7f6e;&#x6a21;&#x5f0f;&#x5b57;&#x7b26;&#x4e32;">
+<node CREATED="1571370281601" ID="ID_1715038727" MODIFIED="1571370287590" TEXT="setPattern()">
+<node CREATED="1571370293081" ID="ID_1522118718" MODIFIED="1571370301849">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      QRegularExpression re;&#160;&#160;&#160;
+    </p>
+    <p>
+      re.setPattern(&quot;another pattern&quot;);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1571370326313" ID="ID_1809536864" MODIFIED="1571370327669" TEXT="&#x83b7;&#x53d6;&#x5df2;&#x8bbe;&#x7f6e;&#x7684;&#x6a21;&#x5f0f;&#x5b57;&#x7b26;&#x4e32;">
+<node CREATED="1571370335520" ID="ID_71663860" MODIFIED="1571370337156" TEXT="pattern()"/>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1570606811025" ID="ID_1010107970" MODIFIED="1570676700291" POSITION="right" TEXT="&#x7b2c;13&#x7ae0;.Qt&#x591a;&#x5a92;&#x4f53;&#x5e94;&#x7528;">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1570606828545" FOLDED="true" ID="ID_1924239580" MODIFIED="1570676700291" TEXT="&#x4f7f;&#x7528;QSound&#x64ad;&#x653e;&#x58f0;&#x97f3;">
+<node CREATED="1570606828545" FOLDED="true" ID="ID_1924239580" MODIFIED="1571369950055" TEXT="&#x4f7f;&#x7528;QSound&#x64ad;&#x653e;&#x58f0;&#x97f3;">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1570606847633" ID="ID_12472082" MODIFIED="1570676700291" TEXT="#include  &lt;QSound&gt;">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1570606882817" ID="ID_777537921" MODIFIED="1570676700291" TEXT="&#x9700;&#x8981;&#x5148;&#x5728;pro&#x6587;&#x4ef6;&#x4e2d;&#x6dfb;&#x52a0; QT += multimedia &#xff0c;&#x624d;&#x80fd;&#x4f7f;&#x7528;&#x8fd9;&#x4e2a;&#x6807;&#x51c6;&#x5e93;"/>
 </node>
 </node>
-<node CREATED="1570614598841" FOLDED="true" HGAP="22" ID="ID_1707604060" MODIFIED="1570676705596" TEXT="&#x4f7f;&#x7528;QMovie&#x64ad;&#x653e;&#x52a8;&#x753b;" VSHIFT="4">
+<node CREATED="1570614598841" HGAP="22" ID="ID_1707604060" MODIFIED="1571369947979" TEXT="&#x4f7f;&#x7528;QMovie&#x64ad;&#x653e;&#x52a8;&#x753b;" VSHIFT="4">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1570614873689" FOLDED="true" HGAP="21" ID="ID_1421379356" MODIFIED="1570676700290" TEXT="QMovie" VSHIFT="2">
 <font NAME="SansSerif" SIZE="12"/>
@@ -1944,11 +2009,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1570676541125" FOLDED="true" ID="ID_379912769" MODIFIED="1571198772952" TEXT="&#x591a;&#x5a92;&#x4f53;&#x7684;&#x5e95;&#x5c42;&#x63a7;&#x5236;">
+<node CREATED="1570676541125" FOLDED="true" ID="ID_379912769" MODIFIED="1571369956479" TEXT="&#x591a;&#x5a92;&#x4f53;&#x7684;&#x5e95;&#x5c42;&#x63a7;&#x5236;">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1570676553949" HGAP="19" ID="ID_847141258" MODIFIED="1570676700290" TEXT="QtMultimedia&#x6a21;&#x5757;" VSHIFT="2">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1570676574901" FOLDED="true" ID="ID_567962654" MODIFIED="1571198771319" TEXT="&#x4e3b;&#x8981;&#x7c7b;" VSHIFT="2">
+<node CREATED="1570676574901" FOLDED="true" ID="ID_567962654" MODIFIED="1571369955151" TEXT="&#x4e3b;&#x8981;&#x7c7b;" VSHIFT="2">
 <node CREATED="1570676595941" ID="ID_1299520107" MODIFIED="1570676700271">
 <richcontent TYPE="NODE"><html>
   <head>
