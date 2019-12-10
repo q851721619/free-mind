@@ -1,7 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1571281856523" ID="ID_196629310" MODIFIED="1571281949092" STYLE="bubble" TEXT="&#x8f66;&#x673a;&#x4ee3;&#x7801;&#x77e5;&#x8bc6;">
-<node CREATED="1571281949678" FOLDED="true" ID="ID_1740662617" MODIFIED="1572313513919" POSITION="right" TEXT="&#x8f66;&#x673a;QT&#x6253;&#x5370;&#x4fe1;&#x606f;">
+<node CREATED="1571281856523" ID="ID_196629310" MODIFIED="1575948804936" STYLE="bubble" TEXT="&#x8f66;&#x673a;&#x77e5;&#x8bc6;">
+<node CREATED="1571281949678" FOLDED="true" ID="ID_1740662617" MODIFIED="1574644257143" POSITION="right" TEXT="&#x8f66;&#x673a;QT&#x6253;&#x5370;&#x4fe1;&#x606f;">
 <node CREATED="1571281972915" ID="ID_105124267" MODIFIED="1571281975696" TEXT="clog">
 <node CREATED="1571281976258" ID="ID_554905415" MODIFIED="1571281978328" TEXT="&#x4f4d;&#x7f6e;">
 <node CREATED="1571282001714" ID="ID_85554985" MODIFIED="1571282003131" TEXT="/home/huanghw/Direct8388GitServer/application/reference_ui/spLauncher/framework/include/utils"/>
@@ -38,7 +38,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1571284157961" FOLDED="true" ID="ID_27977919" MODIFIED="1572487413122" POSITION="left" TEXT="&#x7f16;&#x8bd1;&#x7248;&#x672c;&#x547d;&#x4ee4;">
+<node CREATED="1571284157961" FOLDED="true" ID="ID_27977919" MODIFIED="1574644601564" POSITION="left" TEXT="&#x7f16;&#x8bd1;&#x7248;&#x672c;&#x547d;&#x4ee4;">
 <node CREATED="1571284182737" ID="ID_632278525" MODIFIED="1572485700958" TEXT="mk8388cxx.sh">
 <node CREATED="1571284202377" ID="ID_1863351165" MODIFIED="1571284205623" TEXT="&#x4f4d;&#x7f6e;">
 <node CREATED="1571284206185" ID="ID_1879379564" MODIFIED="1571284229367" TEXT="/Direct83388GitServer"/>
@@ -123,14 +123,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1571737655744" FOLDED="true" ID="ID_138379790" MODIFIED="1572313514567" POSITION="right" TEXT="qm&#x6587;&#x4ef6;">
+<node CREATED="1571737655744" FOLDED="true" ID="ID_138379790" MODIFIED="1574644262118" POSITION="right" TEXT="qm&#x6587;&#x4ef6;">
 <node CREATED="1571737675853" ID="ID_1166487917" MODIFIED="1571737700911" TEXT="&#x4ece;TS&#x6587;&#x4ef6;&#x4e2d;&#x5f97;&#x6765;&#xff0c;&#x53ef;&#x5f53;&#x505a;&#x5207;&#x6362;&#x7ffb;&#x8bd1;&#x7684;&#x6587;&#x4ef6;"/>
 <node CREATED="1571737702714" ID="ID_588394224" MODIFIED="1571737959934" TEXT="&#x4f7f;&#x7528;QT&#x8bed;&#x8a00;&#x5bb6;&#x53ef;&#x4ee5;&#x53d1;&#x5e03;qm&#x6587;&#x4ef6;"/>
 <node CREATED="1571737961401" ID="ID_1915612656" MODIFIED="1571737965833" TEXT=".ts">
 <node CREATED="1571737966924" ID="ID_965021262" MODIFIED="1571737984475" TEXT="&#x53ef;&#x4ee5;&#x5728;QT&#x4e2d;&#x5bfc;&#x51fa;&#x8be5;&#x683c;&#x5f0f;&#x6587;&#x4ef6;"/>
 </node>
 </node>
-<node CREATED="1572313516275" ID="ID_1205142229" MODIFIED="1573024226364" POSITION="left" TEXT="Qt&#x4e2d;&#x7684;Q_D&#x5b8f;&#x548c;d&#x6307;&#x9488;">
+<node CREATED="1572313516275" FOLDED="true" ID="ID_1205142229" MODIFIED="1574644369142" POSITION="left" TEXT="Qt&#x4e2d;&#x7684;Q_D&#x5b8f;&#x548c;d&#x6307;&#x9488;">
 <node CREATED="1572335718113" ID="ID_1326236250" MODIFIED="1572335734962" TEXT="&#x4f7f;&#x7528;&#x76ee;&#x7684;">
 <node CREATED="1572313534010" ID="ID_325122345" MODIFIED="1572334735768">
 <richcontent TYPE="NODE"><html>
@@ -181,8 +181,7 @@
     </pre>
     <pre style="margin-right: 0px; text-indent: 0px; margin-bottom: 0px; margin-left: 0px; margin-top: 0px"><font color="#000080">Q_DECLARE_PUBLIC&#65288;class&#65289;&#22312;&#31169;&#26377;&#31867;classprivate&#23450;&#20041;</font></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1573025911794" ID="ID_1246302497" MODIFIED="1573026162116">
 <richcontent TYPE="NODE"><html>
@@ -203,12 +202,11 @@
       Q_Q&#21518;q&#20026;q_func()
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1572315502537" FOLDED="true" ID="ID_689951817" MODIFIED="1573024225402" POSITION="left" TEXT="pimpl">
+<node CREATED="1572315502537" FOLDED="true" ID="ID_689951817" MODIFIED="1574644363998" POSITION="left" TEXT="pimpl">
 <node CREATED="1572315559807" ID="ID_562978388" MODIFIED="1572315578630" TEXT="&#x5168;&#x79f0;">
 <node CREATED="1572315538375" ID="ID_1901218305" MODIFIED="1572315548403" TEXT="pointer to implementation"/>
 <node CREATED="1572315831046" ID="ID_1502934996" MODIFIED="1572315832706" TEXT="&#x7f16;&#x8bd1;&#x671f;&#x9632;&#x706b;&#x5899;"/>
@@ -378,7 +376,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572315583513" FOLDED="true" ID="ID_1842582663" MODIFIED="1572487416565" POSITION="left" TEXT="qRegisterMetaType">
+<node CREATED="1572315583513" FOLDED="true" ID="ID_1842582663" MODIFIED="1574644372621" POSITION="left" TEXT="qRegisterMetaType">
 <node CREATED="1572402529397" ID="ID_940586637" MODIFIED="1572402539112" TEXT="&#x4f7f;&#x7528;&#x65b9;&#x6cd5;">
 <node CREATED="1572402539916" ID="ID_137761405" MODIFIED="1572402632123">
 <richcontent TYPE="NODE"><html>
@@ -453,7 +451,7 @@
 <node CREATED="1572487418833" ID="ID_1925680442" MODIFIED="1572487427630" POSITION="right" TEXT="&#x7a7a;&#x6307;&#x9488;">
 <node CREATED="1572487428580" ID="ID_319559744" MODIFIED="1572487464478" TEXT="&#x7a7a;&#x6307;&#x9488;&#x4e0d;&#x6307;&#x5411;&#x4efb;&#x4f55;&#x5b9e;&#x9645;&#x7684;&#x5bf9;&#x8c61;&#x6216;&#x8005;&#x51fd;&#x6570;"/>
 </node>
-<node CREATED="1572487713741" ID="ID_111277229" MODIFIED="1572576035628" POSITION="right" TEXT="DECLARE_INTERFACE(A&#xff0c;B)">
+<node CREATED="1572487713741" FOLDED="true" ID="ID_111277229" MODIFIED="1575249231154" POSITION="right" TEXT="DECLARE_INTERFACE(A&#xff0c;B)">
 <node CREATED="1572487716425" ID="ID_1220678766" MODIFIED="1572487736600" TEXT="&#x7ed3;&#x6784;&#x4f53;">
 <node CREATED="1572487737417" ID="ID_1549951585" MODIFIED="1572487746870">
 <richcontent TYPE="NODE"><html>
@@ -490,6 +488,165 @@
 </node>
 <node CREATED="1572576035972" ID="ID_1935982850" MODIFIED="1572576127754" TEXT="QSemaphore">
 <node CREATED="1572576141159" ID="ID_1722691858" MODIFIED="1572576142962" TEXT="QSemaphore&#x7c7b;&#x63d0;&#x4f9b;&#x4e86;&#x5e38;&#x89c4;&#x8ba1;&#x6570;&#x4fe1;&#x53f7;&#x91cf;&#x3002;"/>
+</node>
+</node>
+<node CREATED="1574153957626" ID="ID_1447198604" MODIFIED="1574644377011" POSITION="right" TEXT="&#x4fee;&#x6539;carplay&#x4e2d;&#x5404;&#x83dc;&#x5355;&#x540d;&#x5b57;">
+<node CREATED="1574153984571" ID="ID_968965791" MODIFIED="1574154293755">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;/home/huanghw/work/application/config/maxmade/AV_1278V_31/accessory
+    </p>
+    <p>
+      &#20013;&#65292;&#26377;&#21508;&#20010;&#38468;&#20214;&#30340;xml&#25991;&#20214;&#65292;&#20854;&#20013;carplay&#30340;xml&#25991;&#20214;&#21487;&#20197;&#20462;&#25913;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1574644271759" FOLDED="true" ID="ID_1461137163" MODIFIED="1574647791675" POSITION="left" TEXT="&#x4fee;&#x6539;&#x8f66;&#x673a;&#x754c;&#x9762;">
+<node CREATED="1574644412929" ID="ID_1662490437" MODIFIED="1574644416034" TEXT="&#x4f4d;&#x7f6e;">
+<node CREATED="1574644720551" ID="ID_591518385" MODIFIED="1574645140570" TEXT="&#x9664;&#x4e86;&#x591a;&#x5a92;&#x4f53;&#x5916;&#x7684;&#x56fe;&#x7247;&#x8d44;&#x6e90;.qrc&#x4f4d;&#x7f6e;">
+<node CREATED="1574644726407" ID="ID_313372891" MODIFIED="1574644950711" TEXT="/home/huanghw/workDirectory/application/reference_ui/spLauncher/plugins/activity"/>
+</node>
+<node CREATED="1574645142284" ID="ID_1065522079" MODIFIED="1574645150449" TEXT="&#x591a;&#x5a92;&#x4f53;&#x7684;&#x56fe;&#x7247;&#x8d44;&#x6e90;&#x4f4d;&#x7f6e;">
+<node CREATED="1574645150972" ID="ID_1569262340" MODIFIED="1574645184745" TEXT="/home/huanghw/workDirectory/application/reference_ui/spLauncher/commons/mediaviews/src"/>
+<node CREATED="1574645173332" ID="ID_1621547316" MODIFIED="1574645202033" TEXT="/home/huanghw/workDirectory/application/reference_ui/spLauncher/commons/fileviews/src"/>
+</node>
+</node>
+</node>
+<node CREATED="1575249207697" FOLDED="true" ID="ID_645053136" MODIFIED="1575251698793" POSITION="right" TEXT="&#x5236;&#x4f5c;&#x7c7b;&#x4f3c;&#x7684;&#x8f66;&#x673a;&#x56fe;&#x7247;&#x8d44;&#x6e90;&#x6d41;&#x7a0b;">
+<node CREATED="1575249365829" ID="ID_236884008" MODIFIED="1575250990888" TEXT="1.&#x5148;&#x5c06;&#x56fe;&#x7247;&#x653e;&#x5165;&#x76f8;&#x5e94;&#x7684;&#x56fe;&#x7247;&#x4f4d;&#x7f6e;&#xff0c;&#x66ff;&#x6362;&#x50cf;&#x7d20;&#x76f8;&#x540c;&#x7684;&#xff0c;&#x5c06;&#x66ff;&#x6362;&#x56fe;&#x540d;&#x5b57;&#x6539;&#x4e3a;&#x4e0e;&#x539f;&#x6587;&#x4ef6;&#x76f8;&#x540c;">
+<node CREATED="1575249566435" FOLDED="true" ID="ID_548984558" MODIFIED="1575251645031">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22823;&#37096;&#20998;&#25152;&#29992;&#30340;&#22270;&#29255;&#36164;&#28304;&#22312;activity&#37324;&#38754;&#65292;&#23569;&#37096;&#20998;&#22312;common&#37324;&#38754;
+    </p>
+    <p>
+      &#22312;&#36827;&#20837;&#23545;&#24212;&#24212;&#29992;&#30340;&#22270;&#29255;&#36164;&#28304;&#25991;&#20214;&#22841;&#20013;&#65292;&#20250;&#26377;&#22810;&#20010;&#19981;&#21516;&#31867;&#22411;&#30340;&#25991;
+    </p>
+    <p>
+      &#20214;&#22841;&#65292;&#36873;&#25321;&#23545;&#24212;&#31867;&#22411;&#30340;&#25991;&#20214;&#22841;&#65292;&#25110;&#31867;&#20284;&#30340;&#22797;&#21046;&#19968;&#20010;&#20986;&#26469;&#26367;&#25442;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1575250167039" ID="ID_848819900" MODIFIED="1575250168325" TEXT="/home/huanghw/work/application/reference_ui/spLauncher/plugins/activity">
+<node CREATED="1575250564213" ID="ID_85008355" MODIFIED="1575250572603" TEXT="&#x5176;&#x4ed6;&#x5168;&#x90e8;&#x7684;&#x56fe;&#x7247;&#x8d44;&#x6e90;"/>
+</node>
+<node CREATED="1575250172672" ID="ID_1068512025" MODIFIED="1575250186201" TEXT="/home/huanghw/work/application/reference_ui/spLauncher/commons">
+<node CREATED="1575250211247" ID="ID_27299392" MODIFIED="1575250223597" TEXT="setup&#x56fe;&#x7247;&#x8d44;&#x6e90;"/>
+<node CREATED="1575250217135" ID="ID_1210057972" MODIFIED="1575250471844" TEXT="fileview&#xff1a;&#x5171;&#x7528;&#x7684;&#x591a;&#x5a92;&#x4f53;&#x56fe;&#x7247;&#x8d44;&#x6e90;"/>
+</node>
+</node>
+</node>
+<node CREATED="1575249561420" ID="ID_1635362495" MODIFIED="1575250766913" TEXT="2.&#x66f4;&#x6539;&#x5bf9;&#x5e94;&#x56fe;&#x7247;&#x8d44;&#x6e90;&#x5e94;&#x7528;&#x7684;.pri&#x6587;&#x4ef6;">
+<node CREATED="1575250940018" ID="ID_1258497017" MODIFIED="1575250956432" TEXT="&#x67e5;&#x627e;&#x66ff;&#x6362;&#x7684;&#x7c7b;&#x4f3c;&#x6587;&#x4ef6;"/>
+</node>
+<node CREATED="1575250826779" ID="ID_1216415693" MODIFIED="1575250930680" TEXT="3.&#x5728;qt&#x4e2d;&#x67e5;&#x770b;&#x5e94;&#x7528;&#x7684;&#x8d44;&#x6e90;.qrc&#x53f3;&#x952e;&#x70b9;&#x51fb;open in text Editor&#x67e5;&#x770b;&#x8d44;&#x6e90;&#x8def;&#x5f84;&#x662f;&#x5426;&#x6b63;&#x786e;"/>
+<node CREATED="1575251003090" ID="ID_1234931983" MODIFIED="1575251202320" TEXT="4.&#x5728;&#x5168;&#x9879;&#x76ee;&#x4e0b;&#x641c;&#x7d22;&#x539f;&#x56fe;&#x7247;&#x8d44;&#x6e90;&#x7684;&#x578b;&#x53f7;&#xff0c;&#x5728;&#x5176;&#x5468;&#x56f4;&#x5168;&#x52a0;&#x4e0a;&#x8981;&#x5236;&#x4f5c;&#x7684;&#x7c7b;&#x4f3c;&#x7684;&#x578b;&#x53f7;&#xff0c;&#x4ee5;&#x8fbe;&#x5230;&#x4e24;&#x8005;&#x4f5c;&#x7528;&#x76f8;&#x540c;"/>
+</node>
+<node CREATED="1575251293680" FOLDED="true" ID="ID_1185505122" MODIFIED="1575251697737" POSITION="right" TEXT="&#x5728;&#x56fe;&#x7247;&#x8d44;&#x6e90;&#x578b;&#x53f7;&#x6587;&#x4ef6;&#x4e0b;build&#x548c;default&#x548c;&#x578b;&#x53f7;&#x6587;&#x4ef6;&#x5939;&#x7684;&#x5173;&#x7cfb;">
+<node CREATED="1575251347087" ID="ID_1578371971" MODIFIED="1575251622059">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19968;&#33324;&#35201;&#26356;&#25913;ui&#65292;&#22312;default&#19979;ui&#26356;&#25913;&#65292;&#22240;&#20026;build&#25991;&#20214;&#22841;&#19979;&#30340;&#25991;&#20214;&#37117;&#26159;&#22312;&#32534;&#35793;&#30340;
+    </p>
+    <p>
+      &#36807;&#31243;&#20013;&#20840;&#37096;&#30001;default&#22797;&#21046;&#36807;&#21435;&#30340;&#65292;&#20854;&#20013;&#19981;&#21516;&#22411;&#21495;&#30340;&#36710;&#26426;&#26377;&#30528;&#19981;&#21516;&#30340;&#25991;&#20214;&#22841;&#65292;
+    </p>
+    <p>
+      &#26159;&#22240;&#20026;&#35813;&#25991;&#20214;&#22841;&#19979;&#30340;ui&#25991;&#20214;&#20250;&#35206;&#30422;default&#30340;&#20986;&#29616;&#22312;build&#19979;&#65292;&#20197;&#27492;&#36798;&#21040;&#19981;&#21516;&#30340;
+    </p>
+    <p>
+      &#22411;&#21495;ui&#26377;&#19981;&#21516;&#30340;&#35805;&#26356;&#22909;&#21435;&#26356;&#25913;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1575251408319" ID="ID_1205216730" MODIFIED="1575251411061" TEXT="&#x5982;/home/huanghw/work/application/reference_ui/spLauncher/plugins/activity/btphoneactivity/phoneview/UI_SUZUKI_RDS_1024_600"/>
+</node>
+<node CREATED="1575948821170" ID="ID_1931277159" MODIFIED="1575949301628" POSITION="left" TEXT="&#x84dd;&#x7259;&#x97f3;&#x4e50;&#x589e;&#x52a0;&#x5e95;&#x680f;">
+<node CREATED="1575957354437" ID="ID_1747113565" MODIFIED="1575957430972" TEXT="1.&#x5148;&#x5728;&#x5bf9;&#x5e94;&#x578b;&#x53f7;&#x7684;include&#x4e2d;&#x6dfb;&#x52a0;#SUPPORT_BLUETOOTH_AUDIO_SWITCH_BAR 1"/>
+<node CREATED="1575957431646" ID="ID_1403446282" MODIFIED="1575957607319">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2.&#28982;&#21518;&#22312;/home/huanghw/work1/Direct8388GitServer/application/reference_ui/
+    </p>
+    <p>
+      spLauncher/plugins/activity/btaudioactivity/btaudioview/btaudioview.pri&#25991;&#20214;&#20013;
+    </p>
+    <p>
+      &#20223;&#29031;
+    </p>
+    <pre style="margin-right: 0px; margin-top: 0px; text-indent: 0px; margin-bottom: 0px; margin-left: 0px">if<font color="#c0c0c0"> </font>(<font color="#808000">contains</font>(<font color="#800080">DEFINES</font>,UI_CHERY_1024_600)){</pre>
+    <pre style="margin-right: 0px; margin-top: 0px; text-indent: 0px; margin-bottom: 0px; margin-left: 0px"><font color="#800080">RESOURCES</font><font color="#c0c0c0"> </font>+=<font color="#c0c0c0"> </font>\</pre>
+    <pre style="margin-right: 0px; margin-top: 0px; text-indent: 0px; margin-bottom: 0px; margin-left: 0px"><font color="#c0c0c0">    </font>$$<font color="#800080">PWD</font>/UI_CHERY_1024_600/BTAudio.qrc</pre>
+    <pre style="margin-right: 0px; margin-top: 0px; text-indent: 0px; margin-bottom: 0px; margin-left: 0px"><font color="#800080">HEADERS</font><font color="#c0c0c0">  </font>+=<font color="#c0c0c0"> </font>\</pre>
+    <pre style="margin-right: 0px; margin-top: 0px; text-indent: 0px; margin-bottom: 0px; margin-left: 0px"><font color="#c0c0c0">    </font>$$<font color="#800080">PWD</font>/BtAudioSwitchBar.h</pre>
+    <pre style="margin-right: 0px; margin-top: 0px; text-indent: 0px; margin-bottom: 0px; margin-left: 0px"><font color="#800080">SOURCES</font><font color="#c0c0c0"> </font>+=<font color="#c0c0c0"> </font>\</pre>
+    <pre style="margin-right: 0px; margin-top: 0px; text-indent: 0px; margin-bottom: 0px; margin-left: 0px"><font color="#c0c0c0">    </font>$$<font color="#800080">PWD</font>/BTAudioSwitchBar.cpp</pre>
+    <pre style="margin-right: 0px; margin-top: 0px; text-indent: 0px; margin-bottom: 0px; margin-left: 0px"><font color="#800080">FORMS</font><font color="#c0c0c0"> </font>+=<font color="#c0c0c0"> </font>\</pre>
+    <pre style="margin-right: 0px; margin-top: 0px; text-indent: 0px; margin-bottom: 0px; margin-left: 0px"><font color="#c0c0c0">    </font>$$<font color="#800080">PWD</font>/UI_CHERY_1024_600/btAudioSwitchForm.ui</pre>
+    <pre style="margin-right: 0px; margin-top: 0px; text-indent: 0px; margin-bottom: 0px; margin-left: 0px">}
+&#28155;&#21152;&#31867;&#20284;&#30340;&#30456;&#24212;&#20195;&#30721;&#27573;</pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1575957619021" ID="ID_1885031118" MODIFIED="1575957750500">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      3.&#22312;/home/huanghw/work1/Direct8388GitServer/application/reference_ui/
+    </p>
+    <p>
+      spLauncher/plugins/activity/btaudioactivity/btaudioview&#30446;&#24405;&#19979;&#24314;&#31435;&#21709;&#24212;&#30340;
+    </p>
+    <p>
+      &#25991;&#20214;&#22841;&#65288;&#22914;UI_CHERY_1024_600&#65289;&#65292;&#22312;&#25991;&#20214;&#22841;&#20869;&#21152;&#20837;&#23545;&#24212;&#30340;ui&#12289;qrc&#21644;images
+    </p>
+    <p>
+      &#25991;&#20214;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1575957753764" ID="ID_1578520983" MODIFIED="1575957971077">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      4.&#22312;&#28304;&#25991;&#20214;btaudioview.cpp&#19979;&#25628;&#32034;
+    </p>
+    <pre style="margin-right: 0px; margin-top: 0px; text-indent: 0px; margin-bottom: 0px; margin-left: 0px">SUPPORT_BLUETOOTH_AUDIO_SWITCH_BAR&#65292;&#22312;&#23439;&#23450;&#20041;&#19979;&#20462;&#25913;&#30456;&#24212;&#30340;
+
+    </pre>
+    <pre style="margin-right: 0px; margin-top: 0px; text-indent: 0px; margin-bottom: 0px; margin-left: 0px"><font color="#c0c0c0"><span style="color: #c0c0c0">    </span></font>switchBar<font color="#000000"><span style="color: #000000">=</span></font><font color="#808000"><span style="color: #808000">new</span></font><font color="#c0c0c0"><span style="color: #c0c0c0"> </span></font>BtAudioSwitchWidget<font color="#000000"><span style="color: #000000">(</span></font>QRect<font color="#000000"><span style="color: #000000">(</span></font><font color="#000080"><span style="color: #000080">0</span></font><font color="#000000"><span style="color: #000000">,</span></font><font color="#000080"><span style="color: #000080">70</span></font><font color="#000000"><span style="color: #000000">,</span></font><font color="#000080"><span style="color: #000080">1024</span></font><font color="#000000"><span style="color: #000000">,</span></font><font color="#000080"><span style="color: #000080">67</span></font><font color="#000000"><span style="color: #000000">),</span></font><font color="#808000"><span style="color: #808000">this</span></font><font color="#000000"><span style="color: #000000">);</span></font></pre>
+    &#20197;&#27492;&#25511;&#21046;&#35813;&#20844;&#20849;&#26639;&#30340;&#20301;&#32622;&#22823;&#23567;
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>

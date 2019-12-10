@@ -1470,7 +1470,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1568941807865" FOLDED="true" ID="ID_1834001960" MODIFIED="1573089077926" POSITION="left" TEXT="&#x7b2c;&#x4e09;&#x7ae0;3.Linux&#x4e0b;&#x7684;C&#x7f16;&#x7a0b;&#x57fa;&#x7840;">
+<node CREATED="1568941807865" ID="ID_1834001960" MODIFIED="1574929572462" POSITION="left" TEXT="&#x7b2c;&#x4e09;&#x7ae0;3.Linux&#x4e0b;&#x7684;C&#x7f16;&#x7a0b;&#x57fa;&#x7840;">
 <node CREATED="1568942121461" FOLDED="true" ID="ID_1954610989" MODIFIED="1573089075136" STYLE="bubble" TEXT="C&#x8bed;&#x8a00;&#x7279;&#x70b9;">
 <node CREATED="1568942166556" ID="ID_1197576300" MODIFIED="1568942356348" TEXT="C &#x8bed;&#x8a00;&#x662f;&#x201c;&#x4e2d;&#x7ea7;&#x8bed;&#x8a00;&#x201d;"/>
 <node CREATED="1568942168316" ID="ID_240268817" MODIFIED="1569653386836" TEXT="C&#x8bed;&#x8a00;&#x662f;&#x7ed3;&#x6784;&#x5316;&#x8bed;&#x8a00;"/>
@@ -1775,7 +1775,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1569660785771" FOLDED="true" ID="ID_1852934098" MODIFIED="1573089077156" STYLE="bubble" TEXT="Make &#x5de5;&#x7a0b;&#x7ba1;&#x7406;&#x5668;">
+<node CREATED="1569660785771" ID="ID_1852934098" MODIFIED="1574929574517" STYLE="bubble" TEXT="Make &#x5de5;&#x7a0b;&#x7ba1;&#x7406;&#x5668;">
 <node CREATED="1569661054417" ID="ID_1089150094" MODIFIED="1573089075137" TEXT="&#x4f5c;&#x7528;">
 <node CREATED="1569661068401" ID="ID_514071140" MODIFIED="1573089075137">
 <richcontent TYPE="NODE"><html>
@@ -2385,7 +2385,7 @@
 </node>
 </node>
 <node CREATED="1573089082716" ID="ID_619064011" MODIFIED="1573089097807" POSITION="left" TEXT="&#x7b2c;&#x4e5d;&#x7ae0;.&#x591a;&#x7ebf;&#x7a0b;&#x7f16;&#x7a0b;">
-<node CREATED="1573089134081" ID="ID_1332284052" MODIFIED="1573089145112" TEXT="linux&apos;&#x4e0b;&#x7ebf;&#x7a0b;&#x6982;&#x8ff0;">
+<node CREATED="1573089134081" FOLDED="true" ID="ID_1332284052" MODIFIED="1573176599134" TEXT="linux&apos;&#x4e0b;&#x7ebf;&#x7a0b;&#x6982;&#x8ff0;">
 <node CREATED="1573089146049" ID="ID_1629538602" MODIFIED="1573089245722" TEXT="&#x7ebf;&#x7a0b;&#x6982;&#x8ff0;">
 <node CREATED="1573089151433" ID="ID_1366124127" MODIFIED="1573089232461">
 <richcontent TYPE="NODE"><html>
@@ -2412,8 +2412,7 @@
       &#36848;&#21644;&#20449;&#21495;&#22788;&#29702;&#12290;&#22240;&#27492;,&#22823;&#22823;&#20943;&#23569;&#20102;&#19978;&#19979;&#25991;&#20999;&#25442;&#30340;&#24320;&#38144;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1573089247369" ID="ID_663642336" MODIFIED="1573089256118" TEXT="&#x7ebf;&#x7a0b;&#x7684;&#x5206;&#x7c7b;">
@@ -2446,8 +2445,7 @@
       &#19968;&#20010;&#36827;&#31243;&#20013;&#30340;&#22810;&#20010;&#32447;&#31243;&#30340;&#35843;&#24230;&#20013;&#26080;&#27861;&#21457;&#25381;&#22810;&#22788;&#29702;&#22120;&#30340;&#20248;&#21183;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1573089268936" FOLDED="true" ID="ID_753719511" MODIFIED="1573090287081" TEXT="(2)&#x6838;&#x5fc3;&#x7ea7;&#x7ebf;&#x7a0b;">
@@ -2467,8 +2465,7 @@
       &#19968;&#30456;&#23545;&#20248;&#20808;&#35843;&#24230;&#26041;&#27861;&#36827;&#34892;&#35843;&#24230;,&#36825;&#26679;&#23601;&#21487;&#20197;&#21457;&#25381; &#22810;&#22788;&#29702;&#22120;&#30340;&#24182;&#21457;&#20248;&#21183;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2496,8 +2493,7 @@
       &#32447;&#31243;&#30340;&#26041;&#27861;&#26159;&#20351;&#29992;&#20989;&#25968; pthread_exit,&#36825;&#26159;&#32447;&#31243;&#30340;&#20027;&#21160;&#34892;&#20026;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1573090810833" ID="ID_1092677904" MODIFIED="1573090888421">
 <richcontent TYPE="NODE"><html>
@@ -2527,8 +2523,7 @@
       &#28304;&#23601;&#34987;&#25910;&#22238;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1573090751482" ID="ID_79179218" MODIFIED="1573090754422" TEXT="&#x6ce8;&#x610f;">
@@ -2551,8 +2546,7 @@
       pthread_exit &#26469;&#20195;&#26367;&#36827;&#31243;&#20013;&#30340; exit&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
