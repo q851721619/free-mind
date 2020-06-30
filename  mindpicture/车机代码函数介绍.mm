@@ -1,7 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1573199148000" ID="ID_1850879203" MODIFIED="1573199175228" STYLE="bubble" TEXT="&#x8f66;&#x673a;&#x4ee3;&#x7801;">
-<node CREATED="1573199169380" ID="ID_1861690145" MODIFIED="1573199419123" POSITION="right" TEXT="media&#x591a;&#x5a92;&#x4f53;app">
+<node CREATED="1573199148000" ID="ID_1850879203" MODIFIED="1577068030339" STYLE="bubble" TEXT="&#x8f66;&#x673a;&#x4ee3;&#x7801;">
+<node CREATED="1573199169380" FOLDED="true" ID="ID_1861690145" MODIFIED="1577068030807" POSITION="right" TEXT="media&#x591a;&#x5a92;&#x4f53;app">
 <node CREATED="1573199420167" ID="ID_874242570" MODIFIED="1573199427609" TEXT="Laucher">
 <node CREATED="1573199428427" ID="ID_158605113" MODIFIED="1573199431974" TEXT="activity">
 <node CREATED="1573199432925" ID="ID_1491865904" MODIFIED="1575539908195" TEXT="usbactivity">
@@ -1353,8 +1353,7 @@
     <pre style="text-indent: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px"><font color="#800080">PlayingInfo_t</font><font color="#c0c0c0"> </font><font color="#800000">resumeInfo    //&#24674;&#22797;&#30340;&#20449;&#24687;</font>
 <font color="#800080">QMediaPlayer</font><font color="#000000">::</font>ResumeData<font color="#c0c0c0"> </font><font color="#800000">resumeData</font><font color="#000000">;</font></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574151276661" ID="ID_420538891" MODIFIED="1574151278349" TEXT="&#x9;void saveVideoResumeData(const QMediaPlayer::ResumeData &amp;data); ">
 <node CREATED="1575540263458" ID="ID_1363367400" MODIFIED="1575540279001" TEXT="&#x4fdd;&#x5b58;video&#x7684;resumedata"/>
@@ -1399,11 +1398,189 @@
 <node CREATED="1575709255409" ID="ID_1030874596" MODIFIED="1575709260583" TEXT="&#x6587;&#x4ef6;&#x7c7b;&#x578b;&#x6539;&#x53d8;"/>
 </node>
 <node CREATED="1575709261593" ID="ID_1513475924" MODIFIED="1575709282641" TEXT="&#x9;void _currentMediaChanged(const QString &amp;media);  //current file in list changed. "/>
-<node CREATED="1575709283400" ID="ID_1889127328" MODIFIED="1575709283400" TEXT=""/>
+<node CREATED="1575709283400" ID="ID_1889127328" MODIFIED="1576200652514" TEXT="&#x9;void _playerError(QMediaPlayer::Error err); ">
+<node CREATED="1576205176660" ID="ID_1205170258" MODIFIED="1576205183196" TEXT="&#x9519;&#x8bef;&#x6d88;&#x606f;"/>
+</node>
+<node CREATED="1576205184164" ID="ID_267276461" MODIFIED="1576205197068" TEXT="&#x9;void _stateChanged(QMediaPlayer::State state); ">
+<node CREATED="1576205326203" ID="ID_673948115" MODIFIED="1576205334962" TEXT="&#x64ad;&#x653e;&#x72b6;&#x6001;&#x6539;&#x53d8;"/>
+</node>
+<node CREATED="1576205336243" ID="ID_596128268" MODIFIED="1576205366317" TEXT="&#x9;void _metaDataChanged(); ">
+<node CREATED="1576205396211" ID="ID_1277346413" MODIFIED="1576205431898" TEXT="&#x8bbe;isMetaDataReady&#x4e3a;&#x771f;&#xff0c;&#x53d1;&#x9001;&#x5143;&#x6570;&#x636e;&#x6539;&#x53d8;&#x4fe1;&#x53f7;"/>
+</node>
+<node CREATED="1576205433003" ID="ID_467555991" MODIFIED="1576205466528" TEXT="&#x9;void _positionChanged(qint64 position); ">
+<node CREATED="1576205497523" ID="ID_1525318031" MODIFIED="1576205513681" TEXT="&#x8bbe;&#x7f6e;&#x4f4d;&#x7f6e;&#xff0c;&#x53d1;&#x9001;&#x4f4d;&#x7f6e;&#x6539;&#x53d8;&#x4fe1;&#x53f7;"/>
+</node>
+<node CREATED="1576205514546" ID="ID_1164812332" MODIFIED="1576205576425" TEXT="&#x9;void _audioAvailableChanged(bool status); ">
+<node CREATED="1576205708176" ID="ID_1611938375" MODIFIED="1576205749385" TEXT="&#x6709;&#x65e0;&#x97f3;&#x9891;&#x6539;&#x53d8;&#xff0c;&#x4e3a;&#x5047;&#x5219;&#x53d1;&#x9001;&#x65e0;&#x97f3;&#x9891;&#x8b66;&#x544a;&#x4fe1;&#x53f7;"/>
+</node>
+<node CREATED="1576205750504" ID="ID_48470421" MODIFIED="1576205767703" TEXT="&#x9;void _mediaStatusChanged(QMediaPlayer::MediaStatus status); ">
+<node CREATED="1576205768969" ID="ID_1697557175" MODIFIED="1576206629422" TEXT="&#x591a;&#x5a92;&#x4f53;&#x72b6;&#x6001;&#x6539;&#x53d8;&#xff0c;&#x53d1;&#x9001;&#x4fe1;&#x53f7;&#xff0c;&#x5982;&#x679c;&#x64ad;&#x653e;&#x5df2;&#x5230;&#x5f53;&#x524d;&#x5a92;&#x4f53;&#x7684;&#x7ed3;&#x5c3e;&#x3002; &#x64ad;&#x653e;&#x5668;&#x5904;&#x4e8e;StoppedState&#x3002;&#x64ad;&#x653e;&#x4e0b;&#x4e00;&#x66f2;">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1576206751258" ID="ID_529730697" MODIFIED="1576206752743" TEXT="    void _mediaMessageChanged(QMediaPlayer::MediaMessage messageid, QVariant msgInfo); ">
+<node CREATED="1576207307846" ID="ID_1220853894" MODIFIED="1576207317109" TEXT="&#x591a;&#x5a92;&#x4f53;&#x6d88;&#x606f;&#x6539;&#x53d8;"/>
+</node>
+<node CREATED="1576207321901" ID="ID_1541379414" MODIFIED="1576207334085" TEXT="bool MediaPlayerPrivate::getIsInterrupt() const ">
+<node CREATED="1576207347813" ID="ID_566348042" MODIFIED="1576207361886" TEXT="&#x8fd4;&#x56de;&#x84dd;&#x7259;&#x7535;&#x8bdd;&#x662f;&#x5426;&#x88ab;&#x4e2d;&#x65ad;"/>
+</node>
+<node CREATED="1576207363013" ID="ID_130087836" MODIFIED="1576207377458" TEXT="void MediaPlayerPrivate::setIsInterrupt(bool value) ">
+<node CREATED="1576207378077" ID="ID_1461585663" MODIFIED="1576207394309" TEXT="&#x8bbe;&#x7f6e;&#x84dd;&#x7259;&#x7535;&#x8bdd;&#x662f;&#x5426;&#x88ab;&#x4e2d;&#x65ad;"/>
+</node>
 </node>
 </node>
 <node CREATED="1574150401973" ID="ID_323105024" MODIFIED="1574150491993" TEXT="MediaPlayer">
-<node CREATED="1574150572547" ID="ID_1318430547" MODIFIED="1574150573218" TEXT="public: "/>
+<node CREATED="1574150572547" ID="ID_1318430547" MODIFIED="1574150573218" TEXT="public: ">
+<node CREATED="1576207533188" ID="ID_5920011" MODIFIED="1576207808984">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="margin-left: 0px; margin-bottom: 0px; margin-right: 0px; margin-top: 0px; text-indent: 0px"><font color="#008000">//&#35686;&#21578;&#28040;&#24687;</font></pre>
+    <pre style="margin-left: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px; text-indent: 0px"><font color="#808000">enum</font><font color="#c0c0c0"> </font><font color="#800080">WarningMsg </font></pre>
+    <pre style="margin-left: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px; text-indent: 0px"><font color="#000000">{</font></pre>
+    <pre style="margin-left: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px; text-indent: 0px"><font color="#800080">NoAudio</font><font color="#000000">,</font></pre>
+    <pre style="margin-left: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px; text-indent: 0px"><font color="#800080">AudioUnsupport</font><font color="#000000">,</font></pre>
+    <pre style="margin-left: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px; text-indent: 0px"><font color="#800080">TrickPlayUnsupport</font></pre>
+    <pre style="margin-left: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px; text-indent: 0px"><font color="#000000">};</font></pre>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1576207829466" ID="ID_1103802761" MODIFIED="1576207856299">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="margin-left: 0px; margin-bottom: 0px; margin-right: 0px; margin-top: 0px; text-indent: 0px"><font color="#808000">enum</font><font color="#c0c0c0"> </font><font color="#800080">Error</font></pre>
+    <pre style="margin-left: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px; text-indent: 0px"><font color="#000000">{</font></pre>
+    <pre style="margin-left: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px; text-indent: 0px"><font color="#c0c0c0">	</font><font color="#800080">NoError</font><font color="#000000">,</font><font color="#c0c0c0">                                </font><font color="#008000">//&#27809;&#26377;&#38169;&#35823;</font><font color="#c0c0c0">  </font></pre>
+    <pre style="margin-left: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px; text-indent: 0px"><font color="#c0c0c0">	</font><font color="#800080">ResourceError</font><font color="#000000">,</font><font color="#c0c0c0">                      </font><font color="#008000">//&#23186;&#20307;&#36164;&#28304;&#26080;&#27861;&#35299;&#26512;&#12290;</font></pre>
+    <pre style="margin-left: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px; text-indent: 0px"><font color="#c0c0c0">	</font><font color="#800080">FormatError</font><font color="#000000">,</font><font color="#c0c0c0">                         </font><font color="#008000">//&#19981;&#65288;&#23436;&#20840;&#65289;&#25903;&#25345;&#23186;&#20307;&#36164;&#28304;&#30340;&#26684;&#24335;&#12290;</font><font color="#c0c0c0"> </font><font color="#008000">&#20173;&#28982;&#21487;&#20197;&#25773;&#25918;&#65292;&#20294;&#27809;&#26377;&#38899;&#39057;&#25110;&#35270;&#39057;&#32452;&#20214;&#12290;</font></pre>
+    <pre style="margin-left: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px; text-indent: 0px"><font color="#c0c0c0">	</font><font color="#800080">ServiceMissingError</font><font color="#000000">,</font><font color="#c0c0c0">            </font><font color="#008000">//&#25214;&#19981;&#21040;&#26377;&#25928;&#30340;&#25773;&#25918;&#26381;&#21153;&#65292;&#26080;&#27861;&#32487;&#32493;&#25773;&#25918;&#12290;</font></pre>
+    <pre style="margin-left: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px; text-indent: 0px"><font color="#c0c0c0">	</font><font color="#800080">TakeAudioResourceFailed</font><font color="#000000">,</font><font color="#c0c0c0">    </font><font color="#008000">//</font></pre>
+    <pre style="margin-left: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px; text-indent: 0px"><font color="#c0c0c0">	</font><font color="#800080">TakeVideoResourceFailed</font><font color="#000000">,</font></pre>
+    <pre style="margin-left: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px; text-indent: 0px"><font color="#c0c0c0">	</font><font color="#800080">InputParameterError</font><font color="#000000">,</font></pre>
+    <pre style="margin-left: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px; text-indent: 0px"><font color="#c0c0c0">	</font><font color="#800080">GetPlayFileError</font><font color="#000000">,</font></pre>
+    <pre style="margin-left: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px; text-indent: 0px"><font color="#c0c0c0">	</font><font color="#800080">UnknownError</font><font color="#c0c0c0">                     </font><font color="#008000">//&#26410;&#30693;&#38169;&#35823;</font></pre>
+    <pre style="margin-left: 0px; margin-right: 0px; margin-bottom: 0px; margin-top: 0px; text-indent: 0px"><font color="#000000">};</font></pre>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1576207866986" ID="ID_1726758201" MODIFIED="1576207892519" TEXT="MediaPlayer::MediaPlayer(QObject *parent)     :QObject(parent),d_ptr(new MediaPlayerPrivate), delayConnectPositionTimer(0)">
+<node CREATED="1576207893938" ID="ID_747689900" MODIFIED="1576207900671" TEXT="&#x6784;&#x9020;&#x51fd;&#x6570;"/>
+</node>
+<node CREATED="1576207901506" ID="ID_342505731" MODIFIED="1576208236624" TEXT="QPointer&lt;MediaPlaylist&gt; MediaPlayer::playlist() const ">
+<node CREATED="1576208237935" ID="ID_1654056266" MODIFIED="1576208390879" TEXT="d_func()&#x8fd4;&#x56de;d_ptr&#x6307;&#x9488;&#xff0c;&#x6240;&#x4ee5;&#x8be5;&#x51fd;&#x6570;&#x662f;&#x8fd4;&#x56de;private&#x7684;playlist&#x6307;&#x9488;"/>
+</node>
+<node CREATED="1576208391551" ID="ID_963909473" MODIFIED="1576208407061" TEXT="QString MediaPlayer::currentMedia() const ">
+<node CREATED="1576208407790" ID="ID_1333624473" MODIFIED="1576208598651" TEXT="&#x8fd4;&#x56de;&#x5f53;&#x524d;&#x7684;&#x591a;&#x5a92;&#x4f53;"/>
+</node>
+<node CREATED="1576208605284" ID="ID_798131683" MODIFIED="1576208635271" TEXT="FileType MediaPlayer::currentFileType() const ">
+<node CREATED="1576208636892" ID="ID_1206807326" MODIFIED="1576208654707" TEXT="&#x8fd4;&#x56de;&#x5f53;&#x524d;&#x64ad;&#x653e;&#x591a;&#x5a92;&#x4f53;&#x6587;&#x4ef6;&#x7684;&#x7c7b;&#x578b;"/>
+</node>
+<node CREATED="1576208655565" ID="ID_1526746951" MODIFIED="1576209107107" TEXT="void MediaPlayer::setFileType(FileType type) ">
+<node CREATED="1576209108569" ID="ID_114064801" MODIFIED="1576209114700" TEXT="&#x8bbe;&#x7f6e;&#x6587;&#x4ef6;&#x7c7b;&#x578b;"/>
+</node>
+<node CREATED="1576209123081" ID="ID_1669580213" MODIFIED="1576209124066" TEXT="int MediaPlayer::getMediaOffsetInDir() const ">
+<node CREATED="1576209124625" ID="ID_1391717059" MODIFIED="1576209135454" TEXT="&#x83b7;&#x5f97;&#x591a;&#x5a92;&#x4f53;&#x79fb;&#x52a8;&#x8def;&#x5f84;&#x6570;"/>
+</node>
+<node CREATED="1576209221976" ID="ID_1597873712" MODIFIED="1576209226540" TEXT="int MediaPlayer::mediaCountInDir() const ">
+<node CREATED="1576209227704" ID="ID_1585606796" MODIFIED="1576209247551" TEXT="&#x591a;&#x5a92;&#x4f53;&#x6570;&#x91cf;&#x76ee;&#x5f55;&#x4e0b;"/>
+</node>
+<node CREATED="1576209248319" ID="ID_377831472" MODIFIED="1576209262592" TEXT="int MediaPlayer::playingDirCount() ">
+<node CREATED="1576209263168" ID="ID_1969225598" MODIFIED="1576209270592" TEXT="&#x64ad;&#x653e;&#x76ee;&#x5f55;&#x6570;&#x91cf;"/>
+</node>
+<node CREATED="1576209271416" ID="ID_693296576" MODIFIED="1576209317708" TEXT="QMediaPlayer::State MediaPlayer::state() const ">
+<node CREATED="1576209318407" ID="ID_1093762390" MODIFIED="1576209325820" TEXT="&#x9;return d_func()-&gt;player-&gt;state(); "/>
+</node>
+<node CREATED="1576209327983" ID="ID_1368739967" MODIFIED="1576209333325" TEXT="QMediaPlayer::MediaStatus MediaPlayer::mediaStatus() const ">
+<node CREATED="1576209334480" ID="ID_975668727" MODIFIED="1576209338493" TEXT="&#x9;return d_func()-&gt;player-&gt;mediaStatus(); "/>
+</node>
+<node CREATED="1576209339826" ID="ID_1728158419" MODIFIED="1576209897908" TEXT="QVariant MediaPlayer::metaData(const QString &amp;key) ">
+<node CREATED="1576209899060" ID="ID_1662167102" MODIFIED="1576209910052" TEXT="&#x8fd4;&#x56de;key&#x7684;&#x5143;&#x6570;&#x636e;"/>
+</node>
+<node CREATED="1576209910907" ID="ID_908135967" MODIFIED="1576209922478" TEXT="QStringList MediaPlayer::availableMetaData() const ">
+<node CREATED="1576209923868" ID="ID_218008109" MODIFIED="1576209969612" TEXT="&#x8fd4;&#x56de;&#x53ef;&#x7528;&#x7684;&#x5143;&#x6570;&#x636e;"/>
+</node>
+<node CREATED="1576209970300" ID="ID_1072893534" MODIFIED="1576209989794" TEXT="QString MediaPlayer::textCodecConvert(const QString str) ">
+<node CREATED="1576209990434" ID="ID_1121685258" MODIFIED="1576209994727" TEXT="    //&#x5224;&#x8bfb;&#x662f;UTF8&#x8fd8;&#x662f;GBK,&#x518d;&#x8f6c;&#x6362;&#x6210;UTF8 hcw-20190218 "/>
+</node>
+<node CREATED="1576209995939" ID="ID_1764768800" MODIFIED="1576210036818" TEXT="MediaShuffleMode MediaPlayer::shuffleMode() const ">
+<node CREATED="1576210037571" ID="ID_140455462" MODIFIED="1576210050282" TEXT="&#x8fd4;&#x56de;&#x968f;&#x673a;&#x64ad;&#x653e;&#x6a21;&#x5f0f;"/>
+</node>
+<node CREATED="1576210050924" ID="ID_959487888" MODIFIED="1576210058309" TEXT="MediaRepeatMode MediaPlayer::repeatMode() const ">
+<node CREATED="1576210059251" ID="ID_1156131347" MODIFIED="1576210069170" TEXT="&#x8fd4;&#x56de;&#x91cd;&#x590d;&#x64ad;&#x653e;&#x6a21;&#x5f0f;"/>
+</node>
+<node CREATED="1576210069866" ID="ID_648522192" MODIFIED="1576210100482" TEXT="qint64 MediaPlayer::duration() const ">
+<node CREATED="1576210101146" ID="ID_1415417427" MODIFIED="1576210130625" TEXT="&#x8fd4;&#x56de;&#x4fdd;&#x5b58;&#x5f53;&#x524d;&#x5a92;&#x4f53;&#x7684;&#x6301;&#x7eed;&#x65f6;&#x95f4;&#x7684;&#x5c5e;&#x6027;&#x3002;"/>
+</node>
+<node CREATED="1576210132811" ID="ID_1809075322" MODIFIED="1576461333047" TEXT="qint64 MediaPlayer::position() const ">
+<node CREATED="1576461335336" ID="ID_868984139" MODIFIED="1576461354976" TEXT="&#x8fd4;&#x56de;&#x5f53;&#x524d;&#x591a;&#x5a92;&#x4f53;&#x4f4d;&#x7f6e;"/>
+</node>
+<node CREATED="1576461430591" ID="ID_1354325666" MODIFIED="1576461440811" TEXT="int MediaPlayer::volume() const ">
+<node CREATED="1576461441398" ID="ID_1652844651" MODIFIED="1576461449932" TEXT="&#x8fd4;&#x56de;&#x97f3;&#x91cf;"/>
+</node>
+<node CREATED="1576461450646" ID="ID_1357534399" MODIFIED="1576461502749" TEXT="bool MediaPlayer::isMuted() const ">
+<node CREATED="1576461503902" ID="ID_1112753209" MODIFIED="1576461513358" TEXT="&#x8fd4;&#x56de;&#x662f;&#x5426;&#x9759;&#x97f3;"/>
+</node>
+<node CREATED="1576461514166" ID="ID_307342677" MODIFIED="1576461599107" TEXT="bool MediaPlayer::isVideoAvailable() const ">
+<node CREATED="1576461557974" ID="ID_1797120549" MODIFIED="1576461573653" TEXT="&#x8fd4;&#x56de;&#x97f3;&#x9891;&#x662f;&#x5426;&#x63d0;&#x4f9b;"/>
+</node>
+<node CREATED="1576461600877" ID="ID_1565112147" MODIFIED="1576461624266" TEXT="bool MediaPlayer::isId3InfoReady() const ">
+<node CREATED="1576464425323" ID="ID_1165511920" MODIFIED="1576464439730" TEXT="&#x8fd4;&#x56de;&#x5143;&#x6570;&#x636e;&#x662f;&#x5426;&#x51c6;&#x5907;&#x597d;&#x4e86;"/>
+</node>
+<node CREATED="1576464459954" ID="ID_834075184" MODIFIED="1576464460586" TEXT="bool MediaPlayer::isRunning() const ">
+<node CREATED="1576464461170" ID="ID_900723178" MODIFIED="1576464481308" TEXT="&#x8fd4;&#x56de;&#x591a;&#x5a92;&#x4f53;&#x662f;&#x5426;&#x8fd0;&#x884c;"/>
+</node>
+<node CREATED="1576464482162" ID="ID_1543379172" MODIFIED="1576464542428" TEXT="bool MediaPlayer::getIsInterrupt() const ">
+<node CREATED="1576464543826" ID="ID_1246195171" MODIFIED="1576464565411" TEXT="&#x8fd4;&#x56de;&#x662f;&#x5426;&#x88ab;&#x84dd;&#x7259;&#x7535;&#x8bdd;&#x4e2d;&#x65ad;"/>
+</node>
+<node CREATED="1576464566512" ID="ID_1886547807" MODIFIED="1576464575657" TEXT="void MediaPlayer::setIsInterrupt(bool value) ">
+<node CREATED="1576464576913" ID="ID_1997343545" MODIFIED="1576464593850" TEXT="&#x8bbe;&#x7f6e;&#x84dd;&#x7259;&#x662f;&#x5426;&#x88ab;&#x88ab;&#x84dd;&#x7259;&#x7535;&#x8bdd;&#x4e2d;&#x65ad;"/>
+</node>
+<node CREATED="1576464594625" ID="ID_1266512203" MODIFIED="1576464670805" TEXT="void MediaPlayer::setResumeReadyVal(bool val) ">
+<node CREATED="1576464672048" ID="ID_326236964" MODIFIED="1576464704392" TEXT="&#x8bbe;&#x7f6e;&#x6062;&#x590d;&#x662f;&#x5426;&#x51c6;&#x5907;&#x597d;&#x4fe1;&#x53f7;"/>
+</node>
+<node CREATED="1576464690672" ID="ID_385158759" MODIFIED="1576464714536" TEXT="int MediaPlayer::bufferStatus() const ">
+<node CREATED="1576464745032" ID="ID_101420132" MODIFIED="1576464752217" TEXT="&#x8fd4;&#x56de;&#x7f13;&#x51b2;&#x533a;&#x72b6;&#x6001;"/>
+</node>
+<node CREATED="1576464752936" ID="ID_1246669200" MODIFIED="1576464763809" TEXT="bool MediaPlayer::isSeekable() const ">
+<node CREATED="1576464854126" ID="ID_208879227" MODIFIED="1576464865664" TEXT="&#x8bbe;&#x7f6e;&#x5f53;&#x524d;&#x591a;&#x5a92;&#x4f53;&#x7684;&#x53ef;&#x641c;&#x7d22;&#x72b6;&#x6001;"/>
+</node>
+<node CREATED="1576464866438" ID="ID_1070777879" MODIFIED="1576464955930" TEXT="qreal MediaPlayer::playbackRate() const ">
+<node CREATED="1576464957150" ID="ID_1000143706" MODIFIED="1576465135957" TEXT="&#x8fd4;&#x56de;&#x591a;&#x5a92;&#x4f53;&#x64ad;&#x653e;&#x901f;&#x7387;"/>
+</node>
+<node CREATED="1576465136757" ID="ID_351566074" MODIFIED="1576465239614" TEXT="QMediaPlayer::Error MediaPlayer::error() const ">
+<node CREATED="1576465242468" ID="ID_559316846" MODIFIED="1576465431769" TEXT="&#x8fd4;&#x56de;&#x9519;&#x8bef;&#x591a;&#x5a92;&#x4f53;&#x6587;&#x4ef6;&#x7684;&#x9519;&#x8bef;&#x7c7b;&#x578b;"/>
+</node>
+<node CREATED="1576465432506" ID="ID_706481667" MODIFIED="1576465481685" TEXT="QMultimedia::AvailabilityStatus MediaPlayer::availability() const ">
+<node CREATED="1576465482883" ID="ID_348381762" MODIFIED="1576465612985" TEXT="&#x8fd4;&#x56de;&#x670d;&#x52a1;&#x53ef;&#x7528;&#x6027;&#x7684;&#x72b6;&#x6001;"/>
+</node>
+<node CREATED="1576465613650" ID="ID_328437678" MODIFIED="1576465801643" TEXT="QMediaPlayer::AudioStreamInfo MediaPlayer::getAudioStreamInfo(int id) const ">
+<node CREATED="1576465802792" ID="ID_1746275094" MODIFIED="1576465815143" TEXT="&#x83b7;&#x5f97;&#x97f3;&#x9891;&#x6d41;&#x4fe1;&#x606f;"/>
+</node>
+<node CREATED="1576465815872" ID="ID_1240214580" MODIFIED="1576465836362" TEXT="QStringList MediaPlayer::getAudioStreamCodecs() const ">
+<node CREATED="1576465837736" ID="ID_816450098" MODIFIED="1576465881543" TEXT="&#x83b7;&#x5f97;&#x97f3;&#x9891;&#x6d41;&#x7801;"/>
+</node>
+<node CREATED="1576465882271" ID="ID_1833145935" MODIFIED="1576465898570" TEXT="QStringList MediaPlayer::getAudioStreamLangs() const ">
+<node CREATED="1576465899727" ID="ID_1533665915" MODIFIED="1576465908495" TEXT="&#x83b7;&#x5f97;&#x97f3;&#x9891;&#x6d41;&#x8bed;&#x8a00;"/>
+</node>
+<node CREATED="1576465909263" ID="ID_1421228506" MODIFIED="1576465944909" TEXT="QStringList MediaPlayer::getSubtitleLangs() const ">
+<node CREATED="1576465946023" ID="ID_779957363" MODIFIED="1576465953224" TEXT="&#x83b7;&#x5f97;&#x5b57;&#x5e55;&#x8bed;&#x8a00;"/>
+</node>
+<node CREATED="1576465953943" FOLDED="true" ID="ID_1852445495" MODIFIED="1576479536750" TEXT="void MediaPlayer::clearResumeInfo(bool temp) ">
+<node CREATED="1576465981407" ID="ID_1675975434" MODIFIED="1576465990239" TEXT="&#x6e05;&#x695a;&#x6062;&#x590d;&#x4fe1;&#x606f;"/>
+</node>
+<node CREATED="1576465991031" ID="ID_1833944258" MODIFIED="1576466000531" TEXT="FileType MediaPlayer::getResumeType() ">
+<node CREATED="1576466001687" ID="ID_103745682" MODIFIED="1576466009879" TEXT="&#x83b7;&#x5f97;&#x6062;&#x590d;&#x7c7b;&#x578b;"/>
+</node>
+<node CREATED="1576466010631" ID="ID_895153375" MODIFIED="1576466201786" TEXT="void MediaPlayer::getResumeByType(FileType type, QString &amp;path, QString &amp;name, qint64 &amp;postion) ">
+<node CREATED="1576466203157" ID="ID_34356403" MODIFIED="1576466223781" TEXT="&#x901a;&#x8fc7;&#x7c7b;&#x578b;&#x83b7;&#x53d6;&#x6062;&#x590d;&#x4fe1;&#x606f;&#x7684;&#x5176;&#x4ed6;&#x4fe1;&#x606f;"/>
+</node>
+<node CREATED="1576466224973" ID="ID_565852737" MODIFIED="1576466224973" TEXT=""/>
+</node>
 </node>
 </node>
 </node>
